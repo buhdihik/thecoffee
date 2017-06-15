@@ -12,9 +12,10 @@
         <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">  
         <link href="https://fonts.googleapis.com/css?family=Poller+One" rel="stylesheet"> 
-
+        
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script>
+     <script>
 		$(document).ready(function(){
 		$('a[href^="#"]').on('click',function(e){
 		e.preventDefault();
@@ -24,16 +25,16 @@
 
 		  //Scroll and show hash
 
-		$('html,bod').animate({
-		'scrollTop': $target.offset().top
-		}, 1000, 'swing' , function() {
-		window.location.hash = target;
-		});
+		//$('html,bod').animate({
+		//'scrollTop': $target.offset().top
+		//}, 1000, 'swing' , function() {
+		//window.location.hash = target;
+		//});
 
-		 //Scroll and don't show hash
-		 // $('html,body').animate({
-		//  'scrollTop': $target.offset().top
-		  // }, 1000, 'swing');
+		// Scroll and don't show hash
+		  $('html,body').animate({
+		  'scrollTop': $target.offset().top
+		   }, 1000, 'swing');
 		});
 		});
    </script>
@@ -55,9 +56,9 @@
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-left">
               <li><a href="#first">HOME</a></li>
-              <li><a href="#second">ABOUT</a></li>
-              <li><a href="#third">PRODUCTS</a></li>
-               <li><a href="#">CONTACT</a></li>
+              <li><a href="#third">ABOUT</a></li>
+              <li><a href="#second">PRODUCTS</a></li>
+               <li><a href="#fourth">CONTACT</a></li>
               
             </ul>
 
@@ -84,9 +85,9 @@
           
         </div>
           <!--the Service-->
-        <div  id="second">
+       
     
-              <div class="ourService">
+              <div class="ourService" id="second">
                   <div class="leftBrown col-md-6 content">
                       <div class="leftContent text-center">
                             <h2>The<br/> Service</h2><br/>
@@ -142,7 +143,9 @@
                       
                  
                 
-              </div><!--our Service-->
+            
+            
+            </div><!--our Service-->
              <div class="aboutUs" id="third"> <!--About Us-->
                   
                       <div class="images col-lg-8">
@@ -163,10 +166,9 @@
                          sapientis omnis esse semper beatos.</p>
                  </div>
                   
-                  </div>
-              
-          
-        </div>
+           </div>
+               
+        
 
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
          <script>
