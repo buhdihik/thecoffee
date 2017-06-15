@@ -1,0 +1,300 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+   
+}
+
+
+.indexBG {
+background: transparent url("../images/coffeeFlower.jpeg") no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 995px;
+    width: 100%
+
+}
+
+.logo img {
+    width: 120px;
+    display: block;
+}
+
+.navbar {
+  min-height: 72px !important;  
+}
+
+.nav li a {
+    
+    color: white !important;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.nav li a:hover {
+    font-family: 'Hammersmith One', sans-serif;
+    color: #ffa200 !important;
+    
+}
+
+.navbar-brand {
+    padding-top: 2px !important;
+    padding-right: 225px;
+}
+
+div.navbar-header {
+    width: 100% important;
+}
+
+.pad80 {
+    padding-top: 200px;
+}
+
+h1 {
+    font-family: 'Poller One', cursive;
+    font-size: 45px;
+    color: white;
+}
+
+h4 {
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.ibtn {
+    padding: 20px 35px !important;
+    border-radius: 25px !important;
+}
+
+.order {
+    font-size:22px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.ourService {
+  
+    height: 100%;
+    margin-top: 100px;
+   
+}
+
+.rightBrown {
+   
+    height: 700px;
+     background-image:url("../images/rightBG.jpg");
+    float:left;
+    padding-top: 30px;
+}
+
+.rightContent {
+    max-width: 100%;
+   
+}
+
+.leftBrown {
+    
+    height: 700px;
+    background-image:url("../images/heartmugs.jpg");
+    float:left;
+      -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+
+}
+
+
+
+.quarterItem {
+  font-family: 'Poller One', cursive;
+   font-size: 15px;
+   color: white; 
+   height: 200px;
+   max-width: 250px;
+}
+
+
+.quarter{
+    float: left;
+    width: 50%;
+}
+
+.leftContent h2{
+   font-family: 'Hammersmith One', sans-serif;
+   font-size: 34px;
+   color: #fff;
+   display: block;
+    margin-right: auto;
+    margin-left: auto;
+   padding-top: 100px;
+    
+}
+
+.leftContent span {
+   font-family: 'Poller One', cursive;
+   font-size: 15px;
+   color: orange; 
+}
+
+
+
+
+
+
+.quarter span {
+    font-size: 22px;
+    font-family: 'Hammersmith One', sans-serif;
+    color: #fff;
+}
+
+
+.box-content {
+    display: inline-block;
+    width: 45%;
+    padding: 10px;
+}
+
+.box-content span {
+   font-family: 'Hammersmith One', sans-serif;
+   font-size: 12px;
+   color: white;  
+}
+
+.box-content img {
+    width: 100px;
+    
+    padding-bottom: 10px;
+    align-content: center;
+}
+
+.bottom {
+    border-bottom: 1px solid #ccc;
+   
+}
+
+.right {
+    border-right: 1px solid #ccc;
+}
+
+.readMore {
+    vertical-align: central;
+}
+
+.readMore img {
+    width:200px;
+    
+}
+
+.ambot {
+    width: 500px;
+    float: left;
+}
+
+.contentv {
+    margin-left: 100px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.panel img {
+    height: 350px;
+   
+}
+
+.panel {
+     width: 310px;
+     float: left;
+     margin-right: 30px;
+     margin-top: 95px;
+}
+
+.about h2{
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 42px;
+    color: #333;
+}
+
+.about p {
+    font-family: 'Poller One', cursive;
+    font-size: 12px;
+    color: #999;
+}
+
+@media screen and (max-width: 998px) {
+    .rightBrown {
+        width:100%;
+        height: 990px;
+        
+        background-image:url("../images/rightBG.jpg");
+    }
+
+        
+        .leftBrown {
+            width:100%;
+            height: 500px ;
+            background-image:url("../images/heartmugs.jpg");
+            
+    
+        }
+        
+        .navbar-brand {
+            padding-top: 2px !important;
+            padding-right: 80px;
+        }
+
+
+      
+}
+
+
+
+@media screen and (max-width: 671px){
+        .rightBrown {
+            height: 600px;
+            width: 100%
+          
+        } 
+        
+        
+        .bottom,.right {
+            border-right: 0px;
+            border-bottom: 0px;
+        }  
+        
+        .box-content {
+           width: 100%;
+        }
+        
+        .leftBrown {
+            height: 600px;
+            width: 100%
+        }
+        .navbar-brand {
+            padding-top: 2px !important;
+            padding-right: 80px;
+        }
+}
+
+@media screen and (max-width: 650px){
+      .rightBrown {
+                height: 1000px;
+                width: 100%
+            } 
+            
+      .leftBrown {
+                height: 600px;
+                width: 100%
+            } 
+            
+      .navbar-brand {
+            padding-top: 2px !important;
+            padding-right: 80px;
+            }
+    
+}

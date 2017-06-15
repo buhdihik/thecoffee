@@ -1,0 +1,178 @@
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>The Coffee Shop</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+        <link href="css/main.css" rel="stylesheet" >
+        
+        <link href="https://fonts.googleapis.com/css?family=Reem+Kufi" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css?family=Poller+One" rel="stylesheet"> 
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>
+		$(document).ready(function(){
+		$('a[href^="#"]').on('click',function(e){
+		e.preventDefault();
+
+		var target = this.hash;
+		var $target = $(target);
+
+		  //Scroll and show hash
+
+		$('html,bod').animate({
+		'scrollTop': $target.offset().top
+		}, 1000, 'swing' , function() {
+		window.location.hash = target;
+		});
+
+		 //Scroll and don't show hash
+		 // $('html,body').animate({
+		//  'scrollTop': $target.offset().top
+		  // }, 1000, 'swing');
+		});
+		});
+   </script>
+    
+      </head>
+      <body>
+        <div class="container-fluid indexBG" id="first">
+        <nav class="navbar navbar-inverse navbar-fixed-top " >
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand logo" href="#"><img src="images/logo.png" class="img-responsive"/></a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+              <li><a href="#first">HOME</a></li>
+              <li><a href="#second">ABOUT</a></li>
+              <li><a href="#">PRODUCTS</a></li>
+               <li><a href="#">CONTACT</a></li>
+              
+            </ul>
+
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+          <div class="container" >
+              <div class="col-md-8 pad80">
+                  <h1>Enjoy our coffee <br/>&nbsp;&nbsp;&nbsp;&nbsp;and live the day...</h1>
+                  <br/>
+                  <br/>
+                  <br/>
+                  <h4>A cup in hand
+                    you know it's worth your while<br/>
+                    let's sit and stay for a while<br/>
+                    let minutes turn to moments
+                  </h4>
+                  <br/>
+                  <button class="btn btn-warning ibtn"><span class="order">READ MORE</span></button>
+              </div>
+              <div class="col-md-4"></div>
+          </div>
+            
+          
+        </div>
+          <!--the Service-->
+        <div  id="second">
+    
+              <div class="ourService">
+                  <div class="leftBrown col-md-6 content">
+                      <div class="leftContent text-center">
+                            <h2>The<br/> Service</h2><br/>
+                            <span>
+                                 I believe the children are our future,<br/>
+                                 teach them well and let them lead the way..
+                            </span><br/><br/>
+                            <button class="btn btn-info">read more</button>
+                      </div>
+                  </div>
+                 
+                   <div class="rightBrown col-md-6 text-center">
+                 
+                     <div class="bottom">
+                    <div class="box-content right">
+                        <img src="images/coffeeBeansc.png" class="img-responsive center-block">
+                        <h4>best coffee beans</h4>
+                            
+                         <span>Enjoy the aroma of selected<br/>
+                        coffee beans available at our shop.</span>
+                    
+                    </div>
+                         <div class="box-content ">
+                             <img src="images/coffeeandClockc.png" class="img-responsive center-block ">
+                             <h4>smooth brewed coffee</h4>
+                             
+                                 <span>Take a sip of Elite Coffee, <br/>
+                                and revel in the different tastes.</span>
+                         </div>
+    
+                    </div>
+                      <div class="bottom" style="border-bottom: 0px;">
+                    <div class="box-content right">
+                        <img src="images/cranberryShakeC.png" class="img-responsive center-block">
+                        <h4>best coffee beans</h4>
+                            
+                         <span>Enjoy the aroma of selected<br/>
+                        coffee beans available at our shop.</span>
+                    
+                    </div>
+                         <div class="box-content ">
+                             <img src="images/coffeeMakerc.png" class="img-responsive center-block ">
+                             <h4>smooth brewed coffee</h4>
+                             
+                                 <span>Take a sip of Elite Coffee, <br/>
+                                and revel in the different tastes.</span>
+                         </div>
+    
+                    </div>
+                    <br/><br/><br/>
+                 <button class="btn btn-warning text-center">contact us</button>
+                  </div><!--right Brown-->   
+                      
+                 
+                
+              </div><!--our Service-->
+             <div class="aboutUs"> <!--About Us-->
+                  
+                      <div class="images col-lg-8">
+                          <div class="panel">
+                              <img src="images/yabo.jpg">
+                          </div>
+                          <div class="panel">
+                              <img src="images/kape.jpg">
+                          </div>
+                          <div class="panel">
+                              <img src="images/heart.jpg">
+                          </div>
+                      </div>
+                 <div class="about col-lg-4">
+                     <h2>WHAT ABOUT US?</h2>
+                     <p>Cupit enim dícere nihil posse ad beatam vitam deesse sapienti.<br/>
+                         Illud mihi a te nimium festinanter dictum videtur,<br/>
+                         sapientis omnis esse semper beatos.</p>
+                 </div>
+                  
+                  </div>
+              
+          
+        </div>
+
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         <script>
+        $('.nav a').click(function () {
+        $('.navbar-collapse').collapse('hide');
+            });
+        </script>
+      </body>
+    </html>
