@@ -206,8 +206,11 @@ h4 {
 }
 
 .images {
-    width: 60%;
+    
     float: left;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .imageBox img {
@@ -221,7 +224,7 @@ h4 {
      width: 30%;
      float: left;
      margin-right: 5%;
-     margin-top: 195px;
+     margin-top: 165px;
 }
 
 .imageBox:last-child {
@@ -229,7 +232,9 @@ h4 {
 }
 
 .about {
-    width: 40%;
+   
+    margin-top: 160px;
+    float: left;
 }
 
 .about h2{
@@ -239,15 +244,69 @@ h4 {
 }
 
 .about p {
-    font-family: 'Poller One', cursive;
-    font-size: 12px;
+     font-family: 'Reem Kufi', sans-serif;
+    font-size: 16px;
     color: #999;
+}
+
+.contactUs {
+    background-color: #999;
+    margin-top: 100px;
+}
+
+.contactUs h2 {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 22px;
+}
+
+.h2Bottom {
+    border-bottom: 1px solid #fff;
+    width: 100%;
+}
+
+.h2BottomP {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+.mapLi li {
+    list-style-type: none;
+}
+
+.mapLi ul {
+    float: left;
+    margin-right: 50%;
+    width: 50%;
+}
+
+.mapLi ul:last-child {
+    margin-right: 0%;
+}
+
+.mapLi ul li {
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+
+@media screen and (max-width: 1999px){
+    
+    .about {
+        width: 30%;
+        float:left;
+    }
+    
+    .images {
+        width: 70%;
+        float: left;
+    }
 }
 
 @media screen and (max-width: 998px) {
     .rightBrown {
         width:100%;
-        height: 990px;
+        height: 600px;
         
         background-image:url("../images/rightBG.jpg");
     }
@@ -267,7 +326,8 @@ h4 {
         }
         
         .about {
-            float: left;
+            width: 100%;
+            text-align:center;
         }
         
         .imageBox:last-child {
@@ -277,6 +337,15 @@ h4 {
         .imageBox {
             margin-top: 30px;
         }
+        
+        .images {
+            width: 100%;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+        
 
       
 }
@@ -315,6 +384,14 @@ h4 {
         .imageBox {
             margin-top: 30px;
         }
+        
+          .images {
+            width: 100%;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
 
 }
 
@@ -342,5 +419,12 @@ h4 {
             margin-top: 30px;
         }
 
+         .images {
+            width: 100%;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
     
 }
