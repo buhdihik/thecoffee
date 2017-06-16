@@ -108,6 +108,12 @@ h4 {
 
 }
 
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+  
+}
+
 
 
 .quarterItem {
@@ -141,11 +147,6 @@ h4 {
    color: orange; 
 }
 
-
-
-
-
-
 .quarter span {
     font-size: 22px;
     font-family: 'Hammersmith One', sans-serif;
@@ -177,6 +178,8 @@ h4 {
    
 }
 
+
+
 .right {
     border-right: 1px solid #ccc;
 }
@@ -202,16 +205,31 @@ h4 {
     border: 1px solid red;
 }
 
-.panel img {
-    height: 350px;
+.images {
+    width: 60%;
+    float: left;
+}
+
+.imageBox img {
+    height: auto;
+    width: 100%;
+   max-width: 100%;;
    
 }
 
-.panel {
-     width: 310px;
+.imageBox {
+     width: 30%;
      float: left;
-     margin-right: 30px;
+     margin-right: 5%;
      margin-top: 195px;
+}
+
+.imageBox:last-child {
+    margin-right: 0px;
+}
+
+.about {
+    width: 40%;
 }
 
 .about h2{
@@ -247,7 +265,18 @@ h4 {
             padding-top: 2px !important;
             padding-right: 80px;
         }
-
+        
+        .about {
+            float: left;
+        }
+        
+        .imageBox:last-child {
+         margin-right: 0px;
+        }
+            
+        .imageBox {
+            margin-top: 30px;
+        }
 
       
 }
@@ -279,6 +308,14 @@ h4 {
             padding-top: 2px !important;
             padding-right: 80px;
         }
+        .imageBox:last-child {
+           margin-right: 0px;
+        }
+        
+        .imageBox {
+            margin-top: 30px;
+        }
+
 }
 
 @media screen and (max-width: 650px){
@@ -296,5 +333,14 @@ h4 {
             padding-top: 2px !important;
             padding-right: 80px;
             }
+            
+       .imageBox:last-child {
+             margin-right: 0px;
+            }
+            
+        .imageBox {
+            margin-top: 30px;
+        }
+
     
 }
